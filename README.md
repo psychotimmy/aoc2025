@@ -1,6 +1,6 @@
 # Advent of Code 2025
 
-Fortran 77 (mostly - some extensions and f90 style recursion used) on RaspberryPiOS (Debian trixie)
+Fortran 77 on RaspberryPiOS (Debian trixie)
 
 Use (with gfortran installed) f77 filename.f -o filename to compile and link.
 
