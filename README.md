@@ -2,7 +2,7 @@
 
 Fortran 77 on RaspberryPiOS (Debian trixie)
 
-Use (with gfortran installed) f77 filename.f -o filename to compile and link.
+Use (with gfortran installed) f77 (-O3) filename.f -o filename to compile and link. (The -O3 flag was used on days 8 and 9 to reduce the amount of time my horrible insertion sort code takes to run!)
 
 ## Notes
 
