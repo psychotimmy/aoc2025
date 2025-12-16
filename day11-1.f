@@ -1,7 +1,7 @@
       PROGRAM DAY11P1
 C
 C     Assume graph is no larger than 700 nodes, each with no
-C     more than 20 leaves - parameterised below.
+C     more than 25 leaves - parameterised below.
 C
       INTEGER MAXNODES,MAXLEAVES
       PARAMETER (MAXNODES=700)
