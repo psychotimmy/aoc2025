@@ -2,7 +2,7 @@
 
 Fortran 77 (mostly) on RaspberryPiOS (Debian trixie)
 
-Use (with gfortran installed) f77 (-O3) filename.f -o filename to compile and link. (The -O3 flag was used on days 8 and 9 to reduce the amount of time my horrible insertion sort code takes to run!).
+Use (with gfortran installed) f77 (-O3) filename.f -o filename to compile and link. (The -O3 flag was used on days 8 and 9 to reduce the amount of time my horrible insertion sort code takes to run, since replaced with a heapsort algorithm).
 
 Day 10, part 1 uses bitwise XOR and a recursive subroutine, so f90 territory, albeit written to look like f77. Day 10 part 2 reuses the recursive subroutine, adds in another one and uses bitwise AND for good measure.
 Day 11 parts 1 and 2 also resort to recursion.
