@@ -7,6 +7,8 @@ Use (with gfortran installed) f77 (-O3) filename.f -o filename to compile and li
 Day 10, part 1 uses bitwise XOR and a recursive subroutine, so f90 territory, albeit written to look like f77. Day 10 part 2 reuses the recursive subroutine, adds in another one and uses bitwise AND for good measure.
 Day 11 parts 1 and 2 also resort to recursion.
 
+New Year's Eve bonus - Day1, Part 1 in Microsoft FORTRAN-80 (FORTRAN 66 subset) for the RC2014 running CP/M 2.2 - takes around 10 seconds to run.
+
 ## Notes
 
 **Day 1** Part 1 is straightforward - we can ignore what the safe's dial should actually read and use MOD - it all comes out in the wash. Part 2 was less straightforward as we do need to care what the dial reads! I also put a check in for moving the dial from 0 to 0 (it doesn't count as a click through or to zero) - but my puzzle data didn't have this edge case in it. I've left my debugging WRITE(\*,\*) statements in the code as it illustrates my logic nicely. I suspect there's some further refinement possible, but it works (and quickly).
