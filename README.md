@@ -7,7 +7,7 @@ Use (with gfortran installed) f77 (-O3) filename.f -o filename to compile and li
 Day 10, part 1 uses bitwise XOR and a recursive subroutine, so f90 territory, albeit written to look like f77. Day 10 part 2 reuses the recursive subroutine, adds in another one and uses bitwise AND for good measure.
 Day 11 parts 1 and 2 also resort to recursion.
 
-New Year's Eve bonus - Day1, Part 1 in Microsoft FORTRAN-80 (FORTRAN 66 subset) for the RC2014 running CP/M 2.2 - takes around 10 seconds to run.
+New Year's Eve bonus - Day1 in Microsoft FORTRAN-80 (FORTRAN 66 subset) for the RC2014 running CP/M 2.2 - part 1 takes around 12 seconds to run. Without the diagnostics, part 2 executes in a similar time.
 
 ## Notes
 
